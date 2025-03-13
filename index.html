@@ -1,56 +1,70 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>MK Desenvolvimento de Sistemas</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@200;600;800&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nunito:wght@200;600;800&display=swap"
+      rel="stylesheet"
+    />
     <style>
-        * {margin: 0; padding: 0; box-sizing: border-box;}
-        html, body { height: 100%; background-color: #001C30; color: #EEFFFF; background-image: linear-gradient(to right bottom, #001c30, #041e32, #092034, #0e2337, #122539);}
-        body { font-size: 16px; font-weight: 200; font-family: 'Nunito', Arial, Helvetica, sans-serif;}
-        .home { height: 100%; width: 100%; display: flex; align-items: center; justify-content: center; flex-direction: column;}
-        h1.title {font-weight: 200;}
-        h1.title span.logo {color: #176B87; font-weight: 800;}
-        .contact-link { color: #176B87; text-decoration: none; text-transform: lowercase; font-weight: 600;}
-        .contact-form { width: 100%; max-width: 580px; padding: 1rem;}
-        .input-group {width: 100%; margin: 1rem 0}
-        .input-group input {width: 100%; padding: 0.5rem; border: 1px solid #AAAAAA; background-color: white; border-radius: 3px; font-family: 'Nunito', Arial, Helvetica, sans-serif; font-weight: 200; color: #474747;}
+      * {margin: 0; padding: 0; box-sizing: border-box;}
+      html, body { height: 100%; background-color: #001C30; color: #EEFFFF; background-image: linear-gradient(to right bottom, #001c30, #041e32, #092034, #0e2337, #122539);}
+      body { font-size: 16px; font-weight: 200; font-family: 'Nunito', Arial, Helvetica, sans-serif;}
+      .home { height: 100%; width: 100%; display: flex; align-items: center; justify-content: center; flex-direction: column;}
+      h1.title {font-weight: 200;}
+      h1.title span.logo {color: #176B87; font-weight: 800;}
+      .contact-link { color: #176B87; text-decoration: none; text-transform: lowercase; font-weight: 600;}
+      .contact-form { width: 100%; max-width: 580px; padding: 1rem;}
+      .input-group {width: 100%; margin: 1rem 0}
+      .input-group input {width: 100%; padding: 0.5rem; border: 1px solid #AAAAAA; background-color: white; border-radius: 3px; font-family: 'Nunito', Arial, Helvetica, sans-serif; font-weight: 200; color: #474747;}
     </style>
-</head>
-<body>
+  </head>
+  <body>
     <div class="home">
-        <div>
-            <h1 class="title">Em breve, <span class="logo">MK</span> Desenvolvimento</h1>
-            <a class="contact-link" href="https://www.linkedin.com/in/michaelnsc/" rel="noopener noreferrer" target="_blank">Entre em contato</a>
+      <div>
+        <h1 class="title">
+          Em breve, <span class="logo">MK</span> Desenvolvimento
+        </h1>
+        <a
+          class="contact-link"
+          href="https://www.linkedin.com/in/michaelnsc/"
+          rel="noopener noreferrer"
+          target="_blank"
+          >Entre em contato</a
+        >
+      </div>
+      <form class="contact-form">
+        <div class="input-group">
+          <label for="name">Nome:</label>
+          <input type="text" class="input-field" id="email" name="email" />
         </div>
-        <form class="contact-form">
-            <div class="input-group">
-                <label for="name">Nome:</label>
-                <input type="text" class="input-field" id="email" name="email"/>
-            </div>
-            <div class="input-group">
-                <label for="email">Email:</label>
-                <input type="email" class="input-field" id="email" name="email"/>
-            </div>
-            <div class="input-group">
-                <label for="opinion">O que achou do site?</label>
-                <input type="text" class="input-field" id="email" name="opinion"/>
-            </div>
-            <input type="submit" value="Enviar">
-        </form>
+        <div class="input-group">
+          <label for="email">Email:</label>
+          <input type="email" class="input-field" id="email" name="email" />
+        </div>
+        <div class="input-group">
+          <label for="opinion">O que achou do site?</label>
+          <input type="text" class="input-field" id="email" name="opinion" />
+        </div>
+        <input type="submit" value="Enviar" />
+      </form>
     </div>
     <script>
-        //
-        function handleSubmitForm() {
-            window.alert("Obrigado por enviar seus dados!")
-            setTimeout(window.location.reload, 5000)
-        }
+      //
+      function handleSubmitForm() {
+        window.alert("Obrigado por enviar seus dados!");
+        setTimeout(window.location.reload, 5000);
+      }
     </script>
 
-    <script type="text/javascript" async src="https://d335luupugsy2.cloudfront.net/js/loader-scripts/5a840f82-c033-4cf2-b9d8-c94ef3b860d5-loader.js" ></script>
-
+    <script
+      type="text/javascript"
+      async
+      src="https://d335luupugsy2.cloudfront.net/js/loader-scripts/68b6c325-5b84-42aa-ade6-6c89a3e6cd2a-loader.js"
+    ></script>
   </body>
 </html>
